@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rep Performance Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/app.js" defer></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #fff; color: #333; }
+        canvas { max-width: 100%; }
+        select, h2 { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Rep Performance Dashboard</h1>
+    <h2>Compare April vs May Totals</h2>
+    <canvas id="barChart"></canvas>
+    <h2>May Daily Progress</h2>
+    <label for="repSelect">Choose a rep:</label>
+    <select id="repSelect"></select>
+    <canvas id="lineChart"></canvas>
+</body>
+</html>
